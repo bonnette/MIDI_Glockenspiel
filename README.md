@@ -1,6 +1,6 @@
-# MIDI_Glockenspiel
+
 # Arduino MIDI controlled Glockenspiel
-![Client Photo](https://github.com/bonnette/AutoGlockenspiel/blob/master/photos/ful_pic3.jpg)
+![Client Photo](https://github.com/bonnette/MIDI_Glockenspiel/blob/main/photos/IMG_3465.jpg)
 <br/>
 An automated Glockenspiel Arduino Project
 Inspired by an Instructable
