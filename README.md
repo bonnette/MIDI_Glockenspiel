@@ -7,17 +7,11 @@ Inspired by an Instructable
 </br>
 https://www.instructables.com/id/Making-the-Spielatron-Robotic-Glockenspiel/
 </br>
-The instructions for sending midi music to a midi host is here:</br>
-https://www.instructables.com/How-to-Send-MIDI-Music-to-the-Spielatron/ </br>
-The software to arrange and compose music is at:</br>
-https://musescore.org/en </br>
-LMMS software can be found here:</br>
-https://lmms.io/download#linux</br>
-TTYMIDI can be found here:</br>
-https://github.com/cjbarnes18/ttymidi</br></br>
-This is my interpertation with modifications
+See my AutoGlockenspiel repository</br>
+
+This is a totally different interpertation and code.
 </br></br>
-This project uses a Raspberry Pi 3 B+ with Raspberian Stretch as its operating system. The Pi is used to run applications spelled out by this instructable (https://www.instructables.com/id/How-to-Send-MIDI-Music-to-the-Spielatron/). The applications are installed onto the Pi and I use Windows RDP to connect to and operate these applications.
+This project uses a Windows PC to drive an Arduino which fires one of 32 solenoids that sit above each note.
 </br></br>
 The MIDI control of the hammers is controlled by an Arduino Pro Mini. the serial connetion between the Pi and the Arduino is accomplished through an FTDI interface. This interface allows music that has been converted to a MIDI file to be played on the Glockenspiel.
 </br></br>
