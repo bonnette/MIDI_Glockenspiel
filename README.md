@@ -7,7 +7,7 @@ Inspired by an Instructable
 </br>
 https://www.instructables.com/id/Making-the-Spielatron-Robotic-Glockenspiel/
 </br>
-See my AutoGlockenspiel repository</br>
+See my AutoGlockenspiel repository for more information on my implementation of their project.</br>
 
 This is a totally different interpertation.
 </br></br>
@@ -22,4 +22,7 @@ The current program allows only one note at a time to be played. The use of LMMS
 </br></br>
 I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five differnt holders. 
 </br></br>
-I used Fusion360 for the design of the solenoid holders and I thank Autodesk for allowing makers such as myself to use Fusion360 free of charge. Thanks Autodesk ! 
+I used Fusion360 for the design of the solenoid holders and I thank Autodesk for allowing makers such as myself to use Fusion360 free of charge. Thanks Autodesk !</br>
+I would also like to thank the developers of LMMS (https://lmms.io/) for their work.</br>
+Thanks to hairless-midi (https://projectgus.github.io/hairless-midiserial/) for developing the Hairless MIDI Serial Bridge.</br>
+and Tobias Erichsen for developing loopMIDI (https://www.tobias-erichsen.de/software/loopmidi.html).
