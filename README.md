@@ -9,17 +9,17 @@ https://www.instructables.com/id/Making-the-Spielatron-Robotic-Glockenspiel/
 </br>
 See my AutoGlockenspiel repository</br>
 
-This is a totally different interpertation and code.
+This is a totally different interpertation.
 </br></br>
 This project uses a Windows PC to drive an Arduino which fires one of 32 solenoids that sit above each note.
 </br></br>
-The MIDI control of the hammers is controlled by an Arduino Pro Mini. the serial connetion between the Pi and the Arduino is accomplished through an FTDI interface. This interface allows music that has been converted to a MIDI file to be played on the Glockenspiel.
+The MIDI control of the solenoids is controlled by an Arduino Pro Mini. The serial connetion between the Windows PC and the Arduino is accomplished through an FTDI interface. This interface allows music that has been converted to MIDI to be played on the Glockenspiel.
 </br></br>
 The Glockenspiel is a Pearl 32 note that I purchased off of Ebay for $45
 </br></br>
-There are two Arduino programs.</br>
-The Spielatron_V2.ino file is the original application off of Instructables</br>
-The Spielatron_mod.ino file has modifications of the rotation table for the hammers. This was necessary because my Glockenspiel is a different physical size.</br></br>
-My Glockenspiels is larger and also has more notes (32 vs 25). Right now the modified program only use 25 of my 32 notes. I will in the future add more information to the hammer table which will allow me to use all of the 32 notes available.
+There is only one arduino program.</br>
+The current program allows only one note at a time to be played. The use of LMMS on the PC provides you with the opportunity to direct MIDI to the Arduino on one track while the other tracks play on the computer. This makes for a very pleasant experience in that, you can listen to the glockenspiel along with the accompanying instruments playing on the PC. 
 </br></br>
-I designed a holder for the hammer servos. I used FreeCad for the design. I have provided the FreeCad sources as well as the .stl files for the holder. The design allows you to set the Glockenspiel into the holder and it lifts the Glockenspiel up off the table about 5mm. I may have to make a few tweaks to the design.
+I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five differnt holders. 
+</br></br>
+I used Fusion360 for the design of the solenoid holders and I thank Autodesk for allowing makers such as myself to use Fusion360 free of charge. Thanks Autodesk ! 
