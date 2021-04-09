@@ -17,7 +17,7 @@ The MIDI control of the solenoids is controlled by an Arduino Pro Mini. The seri
 </br></br>
 The Glockenspiel is a Pearl 32 note that I purchased off of Ebay for $45
 </br></br>
-There is only one arduino program.</br>
+There is only one arduino software program. This program uses the arduino midi library to decode each MIDI note recieved from the PC. Then using I2C it sets one of 32 pins distributed across two MCP23017 I/O expander boards to a "HIGH" which then fires a solenoid that then strikes a note on the glockenspiel.</br>
 The current program allows only one note at a time to be played. The use of LMMS on the PC provides you with the opportunity to direct MIDI to the Arduino on one track while the other tracks play on the computer. This makes for a very pleasant experience in that, you can listen to the glockenspiel along with the accompanying instruments playing on the PC. 
 </br></br>
 I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five differnt holders. 
