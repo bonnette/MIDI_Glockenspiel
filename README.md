@@ -22,6 +22,9 @@ The current program allows only one note at a time to be played. The use of LMMS
 </br></br>
 I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five different holders. Each holder takes approximately 4 hours to print. The difference in the holders is their location on the glockenspiel. Three of the corner holders had to be modified in order to accommodate the glockenspiels support structure. 
 </br></br>
+A video of the glockenspiel playing a tune can be found here:</br>
+https://youtu.be/QgNRVtduxMg
+</br></br>
 I used Fusion360 for the design of the solenoid holders and I thank Autodesk for allowing makers such as myself to use Fusion360 free of charge. Thanks Autodesk !</br>
 I would also like to thank the developers of LMMS (https://lmms.io/) for their work.</br>
 Thanks to hairless-midi (https://projectgus.github.io/hairless-midiserial/) for developing the Hairless MIDI Serial Bridge.</br>
