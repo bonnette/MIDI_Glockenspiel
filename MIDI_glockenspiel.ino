@@ -1,7 +1,7 @@
 /*
  * Larry Bonnette 03/2021
- * fire a solinoid when a certain MIDI note is recieved
- * The solinoid is used to strike a note on a glockenspiel
+ * fire a solenoid when a certain MIDI note is recieved
+ * The solenoid is used to strike a note on a glockenspiel
  */
 
 #include <Wire.h>
