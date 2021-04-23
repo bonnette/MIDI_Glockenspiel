@@ -1,5 +1,5 @@
 /*
- * Larry Bonnette 03/2021
+ * Larry Bonnette 04/23/2021
  * fire a solenoid when a certain MIDI note is recieved
  * The solenoid is used to strike a note on a glockenspiel
  */
@@ -7,14 +7,6 @@
 #include <Wire.h>
 #include "Adafruit_MCP23017.h" //MCP23017 - i2c 16 input/output port expander
 #include <MIDI.h>  // Add Midi Library
-// MCP23017 I/O expander
-// Connect pin #12 of the expander to Analog 5 (i2c clock)
-// Connect pin #13 of the expander to Analog 4 (i2c data)
-// Connect pins #15, 16 and 17 of the expander to ground (address selection)
-// Connect pin #9 of the expander to 5V (power)
-// Connect pin #10 of the expander to ground (common ground)
-// Connect pin #18 through a ~10kohm resistor to 5V (reset pin, active low)
-
 
 #define LED 13    // Arduino Board LED is on Pin 13
 
