@@ -15,7 +15,7 @@ This project uses a Windows PC to drive an Arduino which fires one of 32 solenoi
 </br></br>
 The MIDI control of the solenoids is controlled by an Arduino Pro Mini. The serial connection between the Windows PC and the Arduino is accomplished through an FTDI interface. This interface allows music that has been converted to MIDI to be played on the Glockenspiel.
 </br></br>
-The Glockenspiel is a Pearl 32 note that I purchased off of Ebay for $45
+The Glockenspiel is a Pearl 32 note that I purchased from Ebay for $45
 </br></br>
 There is only one Arduino software program. This program uses the Arduino midi library to decode each MIDI note received from the PC. Then using I2C it sets one of 32 pins distributed across two MCP23017 I/O expander boards to a "HIGH" which then fires a solenoid that then strikes a note on the glockenspiel.</br>
 The current program allows only one note at a time to be played. The use of LMMS on the PC provides you with the opportunity to direct MIDI to the Arduino on one track while the other tracks play on the computer. This makes for a very pleasant experience in that, you can listen to the glockenspiel along with the accompanying instruments playing on the PC. 
