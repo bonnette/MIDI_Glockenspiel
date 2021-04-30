@@ -20,7 +20,8 @@ The Glockenspiel is a Pearl 32 note that I purchased off of Ebay for $45
 There is only one Arduino software program. This program uses the Arduino midi library to decode each MIDI note received from the PC. Then using I2C it sets one of 32 pins distributed across two MCP23017 I/O expander boards to a "HIGH" which then fires a solenoid that then strikes a note on the glockenspiel.</br>
 The current program allows only one note at a time to be played. The use of LMMS on the PC provides you with the opportunity to direct MIDI to the Arduino on one track while the other tracks play on the computer. This makes for a very pleasant experience in that, you can listen to the glockenspiel along with the accompanying instruments playing on the PC. 
 </br></br>
-I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five different holders. Each holder takes approximately 4 hours to print. The difference in the holders is their location on the glockenspiel. Three of the corner holders had to be modified in order to accommodate the glockenspiels support structure. 
+I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five different holders. Each holder takes approximately 4 hours to print. The difference in the holders is their location on the glockenspiel. There a three corner holders that hold two solenoids each. There are "High" holders which are all the same and there are "Low" holders. These are all the same as well. </br></br>
+The solenoids are held in place using zip ties.(Shown in the images as rubber bands.) 
 </br></br>
 A video of the glockenspiel playing a tune can be found here:</br>
 https://youtu.be/QgNRVtduxMg
