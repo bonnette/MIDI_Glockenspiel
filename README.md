@@ -21,7 +21,7 @@ There is only one Arduino software program. This program uses the Arduino midi l
 The current program allows only one note at a time to be played. The use of LMMS on the PC provides you with the opportunity to direct MIDI to the Arduino on one track while the other tracks play on the computer. This makes for a very pleasant experience in that, you can listen to the glockenspiel along with the accompanying instruments playing on the PC. 
 </br></br>
 I designed holders for the solenoids. These holders fit on the bottom rails of the glockenspiel and align the solenoids over the keys. There are five different holders. Each holder takes approximately 4 hours to print. The difference in the holders is their location on the glockenspiel. There are three corner holders that hold two solenoids each. There are "High" holders which are all the same and there are "Low" holders. These are all the same as well. </br></br>
-The solenoids are held in place using zip ties.(Shown in the images as rubber bands.) 
+The solenoids are held in place using zip ties.(Shown in the image IMG_3473s.) 
 </br></br>
 A video of the glockenspiel playing a tune can be found here:</br>
 https://youtu.be/QgNRVtduxMg
