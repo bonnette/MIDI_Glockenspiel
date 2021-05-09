@@ -13,7 +13,7 @@ The repository that you are currently looking at (although it was inspired by th
 </br></br>
 This project uses a Windows PC to drive an Arduino which fires one of 32 solenoids that sit above each note.
 </br></br>
-The MIDI control of the solenoids is accompished by using an Arduino Pro Mini. The serial connection between the Windows PC and the Arduino is accomplished through an FTDI interface. This interface allows music that has been converted to MIDI to be played on the Glockenspiel.
+The MIDI control of the solenoids is accompished by using an Arduino Pro Mini. The serial connection between the Windows PC and the Arduino is through an FTDI interface. This interface allows music that has been converted to MIDI to be played on the Glockenspiel.
 </br></br>
 The Glockenspiel is a Pearl 32 note that I purchased from Ebay for $45
 </br></br>
